@@ -12,5 +12,5 @@ __pycache__/
 # macOS junk
 .DS_Store
 
-# Generated output
+# Generated output test
 *.png

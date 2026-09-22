@@ -1,4 +1,3 @@
-cat > main.py << 'EOF'
 """Run weather report — entry point."""
 # TODO: fetch weather from Open-Meteo
 
@@ -9,4 +8,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-EOF
