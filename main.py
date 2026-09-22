@@ -9,7 +9,7 @@ def fetch_weather(latitude, longitude):
         "latitude": latitude,
         "longitude": longitude,
         "current": "temperature_2m,wind_speed_10m",
-        "timezone": "auto",       # ← add this line
+        "timezone": "auto",     
     }
 
     response = requests.get(url, params=params)
